@@ -22,7 +22,7 @@ const Body = () => {
             <div className=' grid grid-cols-1 md:grid-cols-2 p-8 px-3  lg:grid-cols-4 gap-8 w-full'>
                 <div className='relative bg-[#041e46] dark:bg-cyan-950 rounded-3xl grid grid-rows-2 justify-items-end items-center p-8 transform transition-transform duration-300 hover:scale-105'>
                     <AiTwotoneExperiment className='absolute top-[-20px] left-8 text-5xl bg-red-500 p-1 rounded-full text-white cursor-pointer hover:scale-110 transition-transform duration-300' />
-                    <div className='  text-[#085fe2] text-5xl dark:text-white'>0Y 2M</div>
+                    <div className='  text-[#085fe2] text-5xl dark:text-white'>0Y 9M</div>
                     <div className=' text-[#08e6cf] text-xl'>of Total Experience</div>
                 </div>
                 <div className='bg-[#041e46] dark:bg-cyan-950 rounded-3xl grid grid-rows-2 justify-items-end p-8 transform transition-transform duration-300 hover:scale-105'>

@@ -28,7 +28,14 @@ export const Self_Developed_App = () => {
                           </div>
                           <div>
                           <div className=' flex justify-between items-center '>
-                            <RiShareBoxLine size={20} md:size={25} className='text-sky-600 cursor-pointer hover:text-sky-300'/>
+                          <NavLink 
+                              to="https://full-stack-e-commerce-website-kbch.vercel.app/" 
+                              aria-label="Go to page"
+                            >
+                          <RiShareBoxLine 
+                            className="text-sky-600 cursor-pointer hover:text-sky-300 text-[20px] md:text-[25px]" 
+                          />
+                        </NavLink>
                             <div className='text-sky-600 hover:text-sky-300 cursor-pointer flex items-center'><FaGithub /><div>Github</div></div>
                             </div>
                           </div>
